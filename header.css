@@ -1,0 +1,298 @@
+/* Apply basic reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Container should be relative for proper positioning of children */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  /* Optional: set max width to control layout */
+}
+
+/* Background image styles */
+.background-image {
+  width: 100%;
+  height: auto;
+  /* Maintain aspect ratio */
+  display: block;
+
+  /* Remove extra space below image */
+}
+
+/* Styling for the #motive div */
+#motive {
+  position: absolute;
+  /* Ensure proper layering with z-index */
+  top: 110px;
+  /* Adjust position as needed */
+  right: 260px;
+  /* Adjust position as needed */
+  width: 40%;
+  height: 300px;
+  /* Adjust height as needed */
+  background-color: blue;
+  border: 2px solid black;
+  z-index: 1;
+  /* Ensure it's above the image */
+  font-size: 16px;
+  color: white;
+  padding: 24px;
+  border-radius: 20px;
+  font-family: sans-serif;
+
+}
+
+/* Span inside the #motive div */
+#motive span {
+  background-color: brown;
+  /* This might be redundant if the parent already has this background */
+}
+
+/* Paragraph inside the #motive div */
+#motive p {
+  font-size: 26px;
+  font-family: verdana;
+  /* Adjust font size */
+  margin: 0;
+
+  /* Remove default margin */
+}
+
+/* Styling for list items */
+ul {
+  list-style: none;
+  /* Remove default list styling */
+  padding: 0;
+  /* Remove padding if necessary */
+  margin: 0;
+  /* Remove margin if necessary */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  font-size: 26px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  /* Set text color */
+  margin-bottom: 10px;
+  /* Add margin between list items if needed */
+}
+
+/* Assuming #pic is used elsewhere */
+#pic {
+  width: 100%;
+  height: 100%;
+}
+
+#motives {
+  position: absolute;
+  /* Ensure proper layering with z-index */
+  top: 310px;
+  /* Adjust position as needed */
+  right: 10px;
+  /* Adjust position as needed */
+  width: 40%;
+  height: 300px;
+  /* Adjust height as needed */
+  background-color: silver;
+  border: 2px solid black;
+  z-index: 1;
+  /* Ensure it's above the image */
+  font-size: 16px;
+  color: black;
+  padding: 24px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+/* Span inside the #motive div */
+#motives span {
+  background-color: brown;
+  /* This might be redundant if the parent already has this background */
+}
+
+/* Paragraph inside the #motive div */
+#motives p {
+  font-size: 27px;
+  /* Adjust font size */
+  margin: 0;
+  /* Remove default margin */
+}
+
+
+
+#moti {
+  position: absolute;
+  /* Ensure proper layering with z-index */
+  top: 60px;
+  /* Adjust position as needed */
+  right: 30px;
+  /* Adjust position as needed */
+  width: 40%;
+  height: 300px;
+  /* Adjust height as needed */
+  background-color: gray;
+  z-index: 1;
+  /* Ensure it's above the image */
+  font-size: 16px;
+  color: white;
+  padding: 14px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  border: none;
+}
+
+/* Span inside the #motive div */
+#moti span {
+  background-color: brown;
+  /* This might be redundant if the parent already has this background */
+}
+
+/* Paragraph inside the #motive div */
+#moti p {
+  font-size: 27px;
+  /* Adjust font size */
+  margin: 0;
+  /* Remove default margin */
+}
+
+
+
+
+#motiven {
+  position: absolute;
+  /* Ensure proper layering with z-index */
+  top: 90px;
+  /* Adjust position as needed */
+  left: 30px;
+  /* Adjust position as needed */
+  width: 40%;
+  height: 300px;
+  /* Adjust height as needed */
+  background-color: bisque;
+  z-index: 1;
+  /* Ensure it's above the image */
+  font-size: 16px;
+  color: black;
+  padding: 14px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  border: none;
+}
+
+/* Span inside the #motive div */
+#motiven span {
+  background-color: brown;
+  /* This might be redundant if the parent already has this background */
+}
+
+/* Paragraph inside the #motive div */
+#motiven p {
+  font-size: 27px;
+  /* Adjust font size */
+  margin: 0;
+  /* Remove default margin */
+}
+
+
+
+#mots {
+  position: absolute;
+  /* Ensure proper layering with z-index */
+  top: 420px;
+  /* Adjust position as needed */
+  left: 20px;
+  /* Adjust position as needed */
+  width: 40%;
+  height: 300px;
+  /* Adjust height as needed */
+  background-color: bisque;
+  z-index: 1;
+  /* Ensure it's above the image */
+  font-size: 16px;
+  color: black;
+  padding: 14px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  border: none;
+  padding: 20px;
+}
+
+/* Span inside the #motive div */
+#motis span {
+  background-color: brown;
+  /* This might be redundant if the parent already has this background */
+  padding: 10px;
+
+}
+
+/* Paragraph inside the #motive div */
+#mots p {
+  font-size: 27px;
+  /* Adjust font size */
+  margin: 0;
+  padding: 10px;
+  /* Remove default margin */
+}
+
+
+
+
+
+#mouse {
+
+
+  position: absolute;
+  /* Ensure proper layering with z-index */
+  top: 150px;
+  /* Adjust position as needed */
+  left: 20px;
+  /* Adjust position as needed */
+  width: 40%;
+  height: 300px;
+  /* Adjust height as needed */
+  background-color: bisque;
+  z-index: 1;
+  /* Ensure it's above the image */
+  font-size: 16px;
+  color: black;
+  padding: 14px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  border: none;
+  padding: 20px;
+}
+
+/* Span inside the #motive div */
+#moto span {
+  background-color: brown;
+  /* This might be redundant if the parent already has this background */
+  padding: 10px;
+
+}
+
+/* Paragraph inside the #motive div */
+#mouse p {
+  font-size: 27px;
+  /* Adjust font size */
+  margin: 0;
+  padding: 10px;
+  /* Remove default margin */
+}
+
+#mouse img {
+  width: 100%;
+}
